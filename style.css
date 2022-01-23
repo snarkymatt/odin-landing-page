@@ -1,9 +1,7 @@
 body {
-    /*display: flex;*/
     padding: 0;
     margin: 0;
     font-family: roboto, sans-serif;
-
 }
 
 .header {
@@ -75,7 +73,7 @@ body {
 }
 
 .info {
-    background-color: #f9faf8;
+    background-color: #ffffff;
     height: 500px;
     padding: 0 264px;
 
@@ -101,6 +99,9 @@ body {
 }
 .infobox p {
     text-align: center;
+    color: #797979;
+    font-size: 17px;
+    margin-top: 2px;
 }
 
 .infobox img {
@@ -109,4 +110,77 @@ body {
     object-fit: cover;
     border-radius: 16px;
     border: 4px solid #3882f6;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 120px 264px;
+    margin: 0px;
+}
+
+.testimonial p {
+    margin: 0;
+    font-family: roboto, sans-serif;
+    color: #1f2937;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+}
+
+.cta {
+    background-color: #3882f6;
+    margin: 120px 148px;
+    padding: 48px 124px;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta h3 {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+.cta p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cta button {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    width: 134px;
+    height: 38px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 40px;
+    color: #d5d7db;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
 }
